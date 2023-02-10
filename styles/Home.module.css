@@ -35,6 +35,41 @@
   font-size: larger;
 }
 
+.chat_log{
+  padding: 24px 0;
+  text-align: left;
+}
+
+.chat_message.chat_message_ai{
+  background-color: #485774;
+}
+
+
+.chat_message_center{
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding: 12px;
+}
+
+.avatar{
+  background: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+}
+
+.avatar_ai{
+  background-color: #1282a2;
+}
+
+.message{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .chat_input{
   display: flex;
   padding: 24px;

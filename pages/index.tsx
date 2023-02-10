@@ -19,6 +19,20 @@ export default function Home() {
             <span>+</span> New Chat</div>
          </aside>
          <section className={styles.chatbot}>
+         <div className={styles.chat_log}>
+          <div className={styles.chat_message}>
+            <div className={styles.chat_message_center}>
+              <div className={styles.avatar}></div>
+              <div className={styles.message}>Test Message</div>
+            </div>
+          </div>
+          <div className={`${styles.chat_message} ${styles.chat_message_ai}`}>
+            <div className={styles.chat_message_center}>
+              <div className={`${styles.avatar} ${styles.avatar_ai}`}></div>
+              <p className={styles.message}>This throws an error because it thinks I'm subtracting the variables pd and text from styles.projects in the first interpolation and the variables pd and subdetail from styles.proejcts in the second interpolation. Jacob Smit's comment above works though</p>
+            </div>
+          </div>
+         </div>
             <div className={styles.chat_input}>
               <textarea rows={1} className={styles.chat_input_area} placeholder="Type your message"></textarea>
             </div>
