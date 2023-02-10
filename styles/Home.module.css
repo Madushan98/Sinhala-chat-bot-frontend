@@ -1,7 +1,7 @@
 .main {
   display: flex;
   min-height: 100vh;
-  background-color: #282c34;
+  background-color: #364156;
   font-family: Montserrat;
 }
 
@@ -9,7 +9,7 @@
   width: 260px;
   color: white;
   padding: 10px;
-  background-color: #202123;
+  background-color: #212d40;
   min-height: 100vh;
 }
 
@@ -45,7 +45,7 @@
   right: 0;
 }
 .chat_input_area{
-  background-color: #40414f;
+  background-color: #212d40;
   width: 90%;
   border-radius: 5PX;
   border: none;
